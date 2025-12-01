@@ -1,4 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SYM SPA - Módulos Habitacionales</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f7f4ef;
+      color: #333;
+    }
 
+    header {
+      background-color: #1a1a1a;
+      color: #fff;
+      padding: 20px 40px;
+      position: sticky;
+      top: 0;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background-color: #d8c3a5;
+      padding: 100px 40px;
+      text-align: center;
+    }
+
+    .section {
+      padding: 60px 40px;
+    }
+
+    .services, .catalogo {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+    }
+
+    .card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+
+    footer {
+      background: #1a1a1a;
+      color: #fff;
+      text-align: center;
+      padding: 25px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#catalogo">Catálogo</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="inicio">
+    <h1>SYM SPA</h1>
+    <p>Módulos Habitacionales y Soluciones Modulares</p>
+  </section>
+
+  <section class="section" id="nosotros">
+    <h2>Sobre Nosotros</h2>
     <p>
       En SYM SPA nos especializamos en el diseño, fabricación e instalación de módulos
       habitacionales y estructuras modulares adaptadas a proyectos personales, empresariales
@@ -44,7 +122,7 @@
 
   <section class="section" id="contacto">
     <h2>Contacto</h2>
-    <p>Envíanos un correo a: <strong>sym@emprendeconmigo.space</strong></p>
+    <p>Envíanos un correo a: <strong>contacto@symspa.cl</strong></p>
     <p>O escríbenos por WhatsApp para atención personalizada.</p>
   </section>
 
