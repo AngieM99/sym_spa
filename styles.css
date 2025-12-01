@@ -1,0 +1,74 @@
+/* ------------------------------- */
+/* ESTILOS GENERALES SYM SPA      */
+/* ------------------------------- */
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #f4edde;   /* crema cálido */
+    color: #2a2a2a;
+}
+
+/* Header */
+header {
+    background-color: #2a2a2a;
+    color: #f4edde;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    letter-spacing: 1px;
+    font-size: 2.3rem;
+}
+
+header p {
+    margin: 5px 0 0 0;
+    font-size: 1.1rem;
+}
+
+/* Secciones */
+section {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Títulos */
+section h2 {
+    font-size: 2rem;
+    border-left: 5px solid #2a2a2a;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+/* Hero principal */
+#inicio {
+    background-color: #e6dcc8; /* crema más fuerte */
+    padding: 80px 20px;
+    text-align: center;
+    border-bottom: 3px solid #2a2a2a;
+}
+
+/* Contenedores */
+.contenedor-item {
+    background: #ffffff;
+    border: 1px solid #d4c5ac;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #2a2a2a;
+    color: #f4edde;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
