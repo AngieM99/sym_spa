@@ -57,7 +57,28 @@
       padding: 25px;
       margin-top: 40px;
     }
-  </style>
+  
+    /* Responsive styles */
+    @media (max-width: 768px) {
+      nav a { display:block; margin:10px 0; }
+      header { text-align:center; }
+      .hero { padding:60px 20px; }
+    }
+
+    /* WhatsApp Button */
+    .whatsapp-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25d366;
+      color: #fff;
+      padding: 15px 20px;
+      border-radius: 50px;
+      font-weight: bold;
+      text-decoration: none;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    </style>
 </head>
 <body>
   <header>
@@ -123,12 +144,14 @@
 
   <section class="section" id="contacto">
     <h2>Contacto</h2>
-    <p>Envíanos un correo a: <strong>contacto@symspa.cl</strong></p>
+    <p>Envíanos un correo a: <strong>sym@emprendeconmigo.space</strong></p>
     <p>O escríbenos por WhatsApp para atención personalizada.</p>
   </section>
 
   <footer>
     © 2025 SYM SPA - Todos los derechos reservados
   </footer>
+  <a class="whatsapp-btn" href="https://wa.me/56987511391" target="_blank">Escríbenos ahora</a>
+
 </body>
 </html>
